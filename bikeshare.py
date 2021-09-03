@@ -1,7 +1,7 @@
 #Pro2
 # Aug 11, 2021
 
-
+# this app is ready to be move to production
 import time
 import pandas as pd
 import numpy as np
