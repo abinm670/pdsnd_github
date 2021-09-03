@@ -6,6 +6,9 @@ import time
 import pandas as pd
 import numpy as np
 import sys
+
+def thank_message():
+    print("thank you for using our site")
 def list_format(a_list):
     string_list = ["%i: %s" % (index, value) for index, value in enumerate(a_list)]
     return string_list
@@ -201,6 +204,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
+            thank_message()
             break
 
 
